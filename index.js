@@ -40,7 +40,7 @@ function multiplica(valorA, valorB) {
 // dirigir”
 console.log("Desafio 5");
 function podeDirigir(idade) {
-  if (idade > 18) {
+  if (idade >= 18) {
     return "Você pode dirigir";
   } else {
     return "Você não pode dirigir";
